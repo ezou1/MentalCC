@@ -1,0 +1,14 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# VSCode or IDE folders
+.vscode/
+.idea/
+
+# Secret environment variables
+.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db

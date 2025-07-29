@@ -1,0 +1,3 @@
+neurosity
+python-dotenv
+pydirectinput
