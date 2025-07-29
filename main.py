@@ -8,11 +8,7 @@ def callback(data):
     activate_push_action()
 
 if __name__ == "__main__":
-    # ENTER DETAILS HERE
-    DEVICE_ID = "" 
-    EMAIL = ""
-    PASSWORD = ""
-    
+    DEVICE_ID, EMAIL, PASSWORD = load_credentials()
     print(load_credentials())
     setup(DEVICE_ID, EMAIL, PASSWORD)
     unsubscribe = register_kinesis("push", callback)
