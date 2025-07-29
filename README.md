@@ -44,7 +44,7 @@ PASSWORD=your_password
 4. Create and train a Kinesis action (e.g., "push")
 5. Use that exact label in main.py
 
-```
+---
 
 ## To Run
 ```
