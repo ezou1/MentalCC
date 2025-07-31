@@ -2,18 +2,18 @@
 **Mental Cruise Control** is a brain-computer interface (BCI) project that enables hands-free driving input using the Neurosity Crown headset. It listens for trained mental "push" kinesis signals and simulates keyboard input to control a throttle (e.g., `W` key for gas) in driving simulators or games like Roblox.
 
 ## Dependencies
-- `neurosity` # Official Neurosity SDK for the Crown headset
-- `python-dotenv` # Loading console login credentials from a `.env` file
-- `pydirectinput` # A keystroke simulator similar to `pyautogui` or `keyboard` with DirectX support
+- `neurosity`: Official Neurosity SDK for the Crown headset
+- `python-dotenv`: Loading console login credentials from a `.env` file
+- `pydirectinput`: A keystroke simulator similar to `pyautogui` or `keyboard` with DirectX support
 
 ---
 
 ## File Structure
-- `main.py` # Entry point
-- `eeg.py` # Neurosity Kinesis setup and authentication
-- `config.py` # Loads credentials from `.env` file
-- `conroller.py` # Handles keystrokes and other inputs as needed
-- `requirements.txt` # Lists dependencies for streamlined installation
+- `main.py`: Entry point
+- `eeg.py`: Neurosity Kinesis setup and authentication
+- `config.py`: Loads credentials from `.env` file
+- `controller.py`: Handles keystrokes and other inputs as needed
+- `requirements.txt`: Lists dependencies for streamlined installation
 
 ---
 
